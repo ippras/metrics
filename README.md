@@ -58,3 +58,7 @@ MDBOOK_BOOK__LANGUAGE=ru mdbook build
 ```
 MDBOOK_BOOK__LANGUAGE=ru mdbook serve
 ```
+
+***
+
+csplit -z TEMP.md "/^\*\*\*/" "{*}"

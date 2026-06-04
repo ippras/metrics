@@ -167,35 +167,35 @@ $\mathcal{C} = \frac{1}{K} \sum_{k=1}^K \frac{1}{n_k} \sum_{i \in I_k} ||M_i^{\{
 В частном случае, когда все кластеры имеют одинаковый размер $N/K$, эта сумма сводится к $\frac{1}{N} WGSS$.
 
 **Таблица 1: Названия индексов в пакете clusterCrit для R и библиографические ссылки.**
-| Индекс | Название в R | Ссылка | Дата |
-| :--- | :--- | :--- | :--- |
-| Ball-Hall | Ball_Hall | [2] | 1965 |
-| Banfeld-Raftery | Banfeld_Raftery | [3] | 1974 |
-| C index | C_index | [15] | 1976 |
-| Calinski-Harabasz | Calinski_Harabasz | [5] | 1974 |
-| Davies-Bouldin | Davies_Bouldin | [6] | 1979 |
-| \|T\|/\|W\| | Det_Ratio | [24] | 1971 |
-| Dunn | Dunn | [7] | 1974 |
-| Dunn generalized | GDImn | [4] | 1998 |
-| Gamma | Gamma | [1] | 1975 |
-| G + | G_plus | [23] | 1974 |
-| k²\|W\| | Ksq_DetW | [16] | 1975 |
-| log(\|T\|/\|W\|) | Log_Det_Ratio | [24] | 1971 |
-| log(BGSS/WGSS) | Log_SS_Ratio | [14] | 1975 |
-| McClain-Rao | McClain_Rao | [17] | 2001 |
-| PBM | PBM | [19] | 2004 |
-| Point biserial | Point_biserial | [18] | 1981 |
-| Ratkowsky-Lance | Ratkowsky_Lance | [21] | 1978 |
-| Ray-Turi | Ray_Turi | [22] | 1999 |
-| Scott-Symons | Scott_Symons | [24] | 1971 |
-| SD | SD_Scat | [13] | 2001 |
-| SD | SD_Dis | [13] | 2001 |
-| S_Dbw | S_Dbw | [12] | 2001 |
-| Silhouette | Silhouette | [20] | 1987 |
-| Tr(W) | Trace_W | [8] | 1965 |
-| Tr(W⁻¹B) | Trace_WiB | [10] | 1967 |
-| Wemmert-Gançarski | Wemmert_Gancarski | | |
-| Xie-Beni | Xie_Beni | [25] | 1991 |
+| Индекс            | Название в R      | Ссылка | Дата |
+| :---------------- | :---------------- | :----- | :--- |
+| Ball-Hall         | Ball_Hall         | [2]    | 1965 |
+| Banfeld-Raftery   | Banfeld_Raftery   | [3]    | 1974 |
+| C index           | C_index           | [15]   | 1976 |
+| Calinski-Harabasz | Calinski_Harabasz | [5]    | 1974 |
+| Davies-Bouldin    | Davies_Bouldin    | [6]    | 1979 |
+| \|T\|/\|W\|       | Det_Ratio         | [24]   | 1971 |
+| Dunn              | Dunn              | [7]    | 1974 |
+| Dunn generalized  | GDImn             | [4]    | 1998 |
+| Gamma             | Gamma             | [1]    | 1975 |
+| G +               | G_plus            | [23]   | 1974 |
+| k²\|W\|           | Ksq_DetW          | [16]   | 1975 |
+| log(\|T\|/\|W\|)  | Log_Det_Ratio     | [24]   | 1971 |
+| log(BGSS/WGSS)    | Log_SS_Ratio      | [14]   | 1975 |
+| McClain-Rao       | McClain_Rao       | [17]   | 2001 |
+| PBM               | PBM               | [19]   | 2004 |
+| Point biserial    | Point_biserial    | [18]   | 1981 |
+| Ratkowsky-Lance   | Ratkowsky_Lance   | [21]   | 1978 |
+| Ray-Turi          | Ray_Turi          | [22]   | 1999 |
+| Scott-Symons      | Scott_Symons      | [24]   | 1971 |
+| SD                | SD_Scat           | [13]   | 2001 |
+| SD                | SD_Dis            | [13]   | 2001 |
+| S_Dbw             | S_Dbw             | [12]   | 2001 |
+| Silhouette        | Silhouette        | [20]   | 1987 |
+| Tr(W)             | Trace_W           | [8]    | 1965 |
+| Tr(W⁻¹B)          | Trace_WiB         | [10]   | 1967 |
+| Wemmert-Gançarski | Wemmert_Gancarski |        |      |
+| Xie-Beni          | Xie_Beni          | [25]   | 1991 |
 
 **1.2.2 Индекс Банфилда-Рафтери (Banfeld-Raftery)**
 Этот индекс представляет собой взвешенную сумму логарифмов следов дисперсионно-ковариационной матрицы каждого кластера.
@@ -453,35 +453,35 @@ $\mathcal{C} = \frac{\frac{1}{N} WGSS}{\min_{k<k'} \delta_1(C_k, C_{k'})^2}$ (10
 В Таблице 2 обобщено для каждого индекса, какое правило должно применяться для определения наилучшего значения индекса. Например, в случае индекса Калински-Харабаша, если индекс качества был вычислен для различных разбиений данных, наилучшим разбиением является то, которое соответствует наибольшему значению индекса.
 
 **Таблица 2: Метод определения наилучшего разбиения.**
-| Индекс | Правило |
-| :--- | :--- |
-| Ball_Hall | макс. разность (max diff) |
-| Banfeld_Raftery | мин (min) |
-| C_index | мин (min) |
-| Calinski_Harabasz | макс (max) |
-| Davies_Bouldin | мин (min) |
-| Det_Ratio | макс. разность (min diff) |
-| Dunn | макс (max) |
-| GDI | макс (max) |
-| Gamma | макс (max) |
-| G_plus | мин (min) |
-| Ksq_DetW | макс. разность (max diff) |
-| Log_Det_Ratio | мин. разность (min diff) |
-| Log_SS_Ratio | мин. разность (min diff) |
-| McClain_Rao | мин (min) |
-| PBM | макс (max) |
-| Point_biserial | макс (max) |
-| Ratkowsky_Lance | макс (max) |
-| Ray_Turi | мин (min) |
-| Scott_Symons | мин (min) |
-| SD | мин (min) |
-| S_Dbw | мин (min) |
-| Silhouette | макс (max) |
-| Tau | макс (max) |
-| Trace_W | макс. разность (max diff) |
-| Trace_WiB | макс. разность (max diff) |
-| Wemmert_Gancarski | макс (max) |
-| Xie_Beni | мин (min) |
+| Индекс            | Правило                   |
+| :---------------- | :------------------------ |
+| Ball_Hall         | макс. разность (max diff) |
+| Banfeld_Raftery   | мин (min)                 |
+| C_index           | мин (min)                 |
+| Calinski_Harabasz | макс (max)                |
+| Davies_Bouldin    | мин (min)                 |
+| Det_Ratio         | макс. разность (min diff) |
+| Dunn              | макс (max)                |
+| GDI               | макс (max)                |
+| Gamma             | макс (max)                |
+| G_plus            | мин (min)                 |
+| Ksq_DetW          | макс. разность (max diff) |
+| Log_Det_Ratio     | мин. разность (min diff)  |
+| Log_SS_Ratio      | мин. разность (min diff)  |
+| McClain_Rao       | мин (min)                 |
+| PBM               | макс (max)                |
+| Point_biserial    | макс (max)                |
+| Ratkowsky_Lance   | макс (max)                |
+| Ray_Turi          | мин (min)                 |
+| Scott_Symons      | мин (min)                 |
+| SD                | мин (min)                 |
+| S_Dbw             | мин (min)                 |
+| Silhouette        | макс (max)                |
+| Tau               | макс (max)                |
+| Trace_W           | макс. разность (max diff) |
+| Trace_WiB         | макс. разность (max diff) |
+| Wemmert_Gancarski | макс (max)                |
+| Xie_Beni          | мин (min)                 |
 
 Правила принятия решений, названные *max* и *min* в таблице 2, означают, что следует выбирать соответственно наибольшее или наименьшее значение индекса.
 Правило принятия решений, названное *max diff*, означает, что наилучшим значением для $K$ является то, которое соответствует наибольшей разности между двумя последовательными наклонами. На диаграмме, представляющей значения индекса в зависимости от количества выбранных кластеров, это соответствует "локтю" (изгибу). Точнее, обозначим $V_i = Q_{i+1} - Q_i$ наклон между двумя последовательными точками диаграммы. Тогда $K$ определяется как:
@@ -735,73 +735,73 @@ $folkes_mallows
 Пакет *clusterCrit* написан на Fortran, что делает вычисления довольно быстрыми. Тем не менее, некоторые индексы более требовательны и требуют больше вычислений, чем другие. Следующие тайминги были оценены с использованием пакета *rbenchmark*: различные индексы вычислялись отдельно 100 раз на наборе из 400 точек, разбитых на четыре группы. Результаты не интересны сами по себе, а скорее для сравнения объема вычислений, требуемого различными индексами.
 В следующей таблице обобщены тайминги для внутренних индексов (они выражены в секундах для 100 повторений, поэтому все они должны быть разделены на 100):
 
-| Индекс | Время |
-| :--- | :--- |
-| all | 3.095 |
-| Ball_Hall | 0.944 |
-| Banfeld_Raftery | 0.946 |
-| C_index | 2.898 |
+| Индекс            | Время |
+| :---------------- | :---- |
+| all               | 3.095 |
+| Ball_Hall         | 0.944 |
+| Banfeld_Raftery   | 0.946 |
+| C_index           | 2.898 |
 | Calinski_Harabasz | 0.930 |
-| Davies_Bouldin | 0.926 |
-| Det_Ratio | 0.930 |
-| Dunn | 0.969 |
-| Gamma | 2.188 |
-| G_plus | 2.170 |
-| GDI11 | 0.985 |
-| GDI12 | 0.971 |
-| GDI13 | 0.957 |
-| GDI21 | 0.966 |
-| GDI22 | 0.961 |
-| GDI23 | 0.953 |
-| GDI31 | 0.959 |
-| GDI32 | 0.957 |
-| GDI33 | 0.948 |
-| GDI41 | 0.936 |
-| GDI42 | 0.933 |
-| GDI43 | 0.923 |
-| GDI51 | 0.934 |
-| GDI52 | 0.934 |
-| GDI53 | 0.921 |
-| Ksq_DetW | 0.930 |
-| Log_Det_Ratio | 0.930 |
-| Log_SS_Ratio | 0.923 |
-| McClain_Rao | 0.958 |
-| PBM | 0.928 |
-| Point_Biserial | 0.959 |
-| Ray_Turi | 0.923 |
-| Ratkowsky_Lance | 0.923 |
-| Scott_Symons | 0.965 |
-| SD_Scat | 0.930 |
-| SD_Dis | 0.923 |
-| S_Dbw | 0.924 |
-| Silhouette | 0.992 |
-| Tau | 2.174 |
-| Trace_W | 0.945 |
-| Trace_WiB | 0.952 |
+| Davies_Bouldin    | 0.926 |
+| Det_Ratio         | 0.930 |
+| Dunn              | 0.969 |
+| Gamma             | 2.188 |
+| G_plus            | 2.170 |
+| GDI11             | 0.985 |
+| GDI12             | 0.971 |
+| GDI13             | 0.957 |
+| GDI21             | 0.966 |
+| GDI22             | 0.961 |
+| GDI23             | 0.953 |
+| GDI31             | 0.959 |
+| GDI32             | 0.957 |
+| GDI33             | 0.948 |
+| GDI41             | 0.936 |
+| GDI42             | 0.933 |
+| GDI43             | 0.923 |
+| GDI51             | 0.934 |
+| GDI52             | 0.934 |
+| GDI53             | 0.921 |
+| Ksq_DetW          | 0.930 |
+| Log_Det_Ratio     | 0.930 |
+| Log_SS_Ratio      | 0.923 |
+| McClain_Rao       | 0.958 |
+| PBM               | 0.928 |
+| Point_Biserial    | 0.959 |
+| Ray_Turi          | 0.923 |
+| Ratkowsky_Lance   | 0.923 |
+| Scott_Symons      | 0.965 |
+| SD_Scat           | 0.930 |
+| SD_Dis            | 0.923 |
+| S_Dbw             | 0.924 |
+| Silhouette        | 0.992 |
+| Tau               | 2.174 |
+| Trace_W           | 0.945 |
+| Trace_WiB         | 0.952 |
 | Wemmert_Gancarski | 0.960 |
-| Xie_Beni | 0.978 |
+| Xie_Beni          | 0.978 |
 
 Мы наблюдаем, что C-индекс является наиболее трудоемким. Индексы gamma, g_plus и tau также требуют интенсивных вычислений, поскольку подсчеты конкордантности и дискордантности касаются огромного количества пар точек. Все остальные индексы дают более или менее одинаковые значения.
 Использование ключевого слова `"all"` в функции `intCriteria` весьма эффективно, поскольку код оптимизирован во избежание дублирующих вычислений и для повторного использования значений, уже вычисленных для других индексов. Результат тайминга для одновременного вычисления всех индексов 100 раз составляет 3.095.
 Напротив, тестирование производительности внешних индексов не выявляет какой-либо заметной разницы. Все они занимают более или менее одинаковое время и очень быстры. Вот результаты для 100 повторений функции `extCriteria`, примененной к двум разбиениям, содержащим 150 элементов:
 
-| Индекс | Время |
-| :--- | :--- |
-| all | 0.010 |
+| Индекс           | Время |
+| :--------------- | :---- |
+| all              | 0.010 |
 | Czekanowski_Dice | 0.010 |
-| Folkes_Mallows | 0.010 |
-| Hubert | 0.011 |
-| Jaccard | 0.010 |
-| Kulczynski | 0.011 |
-| McNemar | 0.010 |
-| Phi | 0.010 |
-| Precision | 0.010 |
-| Rand | 0.010 |
-| Recall | 0.011 |
-| Rogers_Tanimoto | 0.010 |
-| Russel_Rao | 0.011 |
-| Sokal_Sneath1 | 0.010 |
-| Sokal_Sneath2 | 0.009 |
+| Folkes_Mallows   | 0.010 |
+| Hubert           | 0.011 |
+| Jaccard          | 0.010 |
+| Kulczynski       | 0.011 |
+| McNemar          | 0.010 |
+| Phi              | 0.010 |
+| Precision        | 0.010 |
+| Rand             | 0.010 |
+| Recall           | 0.011 |
+| Rogers_Tanimoto  | 0.010 |
+| Russel_Rao       | 0.011 |
+| Sokal_Sneath1    | 0.010 |
+| Sokal_Sneath2    | 0.009 |
 
 ---
 
