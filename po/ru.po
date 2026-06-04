@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-05-26T10:30:54+03:00\n"
+"POT-Creation-Date: 2026-06-04T17:00:37+03:00\n"
 "PO-Revision-Date: 2026-05-26T10:30:54+03:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: src/SUMMARY.md:1
@@ -23,31 +23,320 @@ msgstr ""
 msgid "Correlations"
 msgstr ""
 
-#: src/SUMMARY.md:6 src/Moments/Pearson.md:1
+#: src/SUMMARY.md:6
 msgid "Pearson"
 msgstr ""
 
-#: src/SUMMARY.md:7 src/Moments/Spearman.md:1
+#: src/SUMMARY.md:7
 msgid "Spearman"
 msgstr ""
 
-#: src/SUMMARY.md:9 src/Metrics/index.md:1
+#: src/SUMMARY.md:9 src/Distances/index.md:1
+msgid "Distances"
+msgstr ""
+
+#: src/SUMMARY.md:10 src/Distances/DataAnalysis/index.md:1
+msgid "Data Analysis"
+msgstr ""
+
+#: src/SUMMARY.md:11 src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:1
+msgid "Anderberg similarity"
+msgstr ""
+
+#: src/SUMMARY.md:12
+#: src/Distances/DataAnalysis/Binary/BraunBlanquetSimilarity.md:1
+msgid "Braun–Blanquet similarity"
+msgstr ""
+
+#: src/SUMMARY.md:13
+#: src/Distances/DataAnalysis/Binary/DispersionSimilarity.md:1
+msgid "Dispersion similarity"
+msgstr ""
+
+#: src/SUMMARY.md:14 src/Distances/DataAnalysis/Binary/FaithSimilarity.md:1
+msgid "Faith similarity"
+msgstr ""
+
+#: src/SUMMARY.md:15
+#: src/Distances/DataAnalysis/Binary/ForbesMozleySimilarity.md:1
+msgid "Forbes–Mozley similarity"
+msgstr ""
+
+#: src/SUMMARY.md:16 src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:1
+msgid "Gower similarity 2"
+msgstr ""
+
+#: src/SUMMARY.md:17
+#: src/Distances/DataAnalysis/Binary/GowerLegendreSimilarity.md:1
+msgid "Gower–Legendre similarity"
+msgstr ""
+
+#: src/SUMMARY.md:18 src/Distances/DataAnalysis/Binary/HamannSimilarity.md:1
+msgid "Hamann similarity"
+msgstr ""
+
+#: src/SUMMARY.md:19 src/Distances/DataAnalysis/Binary/ModelDistance.md:1
+msgid "Model distance"
+msgstr ""
+
+#: src/SUMMARY.md:20 src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:1
+msgid "Mountford similarity"
+msgstr ""
+
+#: src/SUMMARY.md:21 src/Distances/DataAnalysis/Binary/PatternDifference.md:1
+msgid "Pattern difference"
+msgstr ""
+
+#: src/SUMMARY.md:22
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:1
+msgid "Pearson correlation similarity"
+msgstr ""
+
+#: src/SUMMARY.md:23
+msgid "Q_0-difference"
+msgstr ""
+
+#: src/SUMMARY.md:24 src/Distances/DataAnalysis/Binary/RandSimilarity.md:1
+msgid "Rand similarity"
+msgstr ""
+
+#: src/SUMMARY.md:25
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:1
+msgid "Roger–Tanimoto similarity"
+msgstr ""
+
+#: src/SUMMARY.md:26 src/Distances/DataAnalysis/Binary/RusselRaoSimilarity.md:1
+msgid "Russel–Rao similarity"
+msgstr ""
+
+#: src/SUMMARY.md:27
+#: src/Distances/DataAnalysis/Binary/SokalSneathSimilarities.md:1
+msgid "Sokal–Sneath similarities"
+msgstr ""
+
+#: src/SUMMARY.md:28 src/Distances/DataAnalysis/Binary/TverskySimilarity.md:1
+msgid "Tversky similarity"
+msgstr ""
+
+#: src/SUMMARY.md:29 src/Distances/DataAnalysis/Binary/YuleSimilarities.md:1
+msgid "Yule similarities"
+msgstr ""
+
+#: src/SUMMARY.md:31
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:1
+msgid "Cosine similarity"
+msgstr ""
+
+#: src/SUMMARY.md:32
+#: src/Distances/DataAnalysis/Correlation/CovarianceSimilarity.md:1
+msgid "Covariance similarity"
+msgstr ""
+
+#: src/SUMMARY.md:33
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:1
+msgid "Global correlation distance"
+msgstr ""
+
+#: src/SUMMARY.md:34
+#: src/Distances/DataAnalysis/Correlation/LogLikelihoodDistance.md:1
+msgid "Log-likelihood distance"
+msgstr ""
+
+#: src/SUMMARY.md:35
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:1
+msgid "Morisita–Horn similarity"
+msgstr ""
+
+#: src/SUMMARY.md:36
+msgid "Pearson $phi$ similarity"
+msgstr ""
+
+#: src/SUMMARY.md:37
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:1
+msgid "Similarity ratio"
+msgstr ""
+
+#: src/SUMMARY.md:38
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:1
+msgid "Spearman rank correlation"
+msgstr ""
+
+#: src/SUMMARY.md:40
+#: src/Distances/DataAnalysis/Numerical/BaroniUrbaniBuserSimilarity.md:1
+msgid "Baroni–Urbani–Buser similarity"
+msgstr ""
+
+#: src/SUMMARY.md:41
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:1
+msgid "Bray–Curtis similarity"
+msgstr ""
+
+#: src/SUMMARY.md:42 src/Distances/DataAnalysis/Numerical/CanberraDistance.md:1
+msgid "Canberra distance"
+msgstr ""
+
+#: src/SUMMARY.md:43
+#: src/Distances/DataAnalysis/Numerical/CzekanowskySimilarity.md:1
+msgid "Czekanowsky similarity"
+msgstr ""
+
+#: src/SUMMARY.md:44
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:1
+msgid "Czekanowsky–Dice distance"
+msgstr ""
+
+#: src/SUMMARY.md:45 src/Distances/DataAnalysis/Numerical/DiceSimilarity.md:1
+msgid "Dice similarity"
+msgstr ""
+
+#: src/SUMMARY.md:46
+#: src/Distances/DataAnalysis/Numerical/EllenbergSimilarity.md:1
+msgid "Ellenberg similarity"
+msgstr ""
+
+#: src/SUMMARY.md:47
+#: src/Distances/DataAnalysis/Numerical/GleasonSimilarity.md:1
+msgid "Gleason similarity"
+msgstr ""
+
+#: src/SUMMARY.md:48
+#: src/Distances/DataAnalysis/Numerical/IntersectionDistance.md:1
+msgid "Intersection distance"
+msgstr ""
+
+#: src/SUMMARY.md:49
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:1
+msgid "Jaccard similarity"
+msgstr ""
+
+#: src/SUMMARY.md:50
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_1.md:1
+msgid "Kulczynski similarity 1"
+msgstr ""
+
+#: src/SUMMARY.md:51
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_2.md:1
+msgid "Kulczynski similarity 2"
+msgstr ""
+
+#: src/SUMMARY.md:52
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:1
+msgid "Maryland Bridge similarity"
+msgstr ""
+
+#: src/SUMMARY.md:53 src/Distances/DataAnalysis/Numerical/MotykaSimilarity.md:1
+msgid "Motyka similarity"
+msgstr ""
+
+#: src/SUMMARY.md:54
+#: src/Distances/DataAnalysis/Numerical/RobertsSimilarity.md:1
+msgid "Roberts similarity"
+msgstr ""
+
+#: src/SUMMARY.md:55
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:1
+msgid "Ruzicka similarity"
+msgstr ""
+
+#: src/SUMMARY.md:56
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:1
+msgid "Simpson similarity"
+msgstr ""
+
+#: src/SUMMARY.md:57
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:1
+msgid "Sørensen distance"
+msgstr ""
+
+#: src/SUMMARY.md:59
+#: src/Distances/DataAnalysis/Relative/BinaryEuclideanDistance.md:1
+msgid "Binary Euclidean distance"
+msgstr ""
+
+#: src/SUMMARY.md:60 src/Distances/DataAnalysis/Relative/ClarkDistance.md:1
+msgid "Clark distance"
+msgstr ""
+
+#: src/SUMMARY.md:61 src/Distances/DataAnalysis/Relative/EffectSize.md:1
+msgid "Effect size"
+msgstr ""
+
+#: src/SUMMARY.md:62 src/Distances/DataAnalysis/Relative/HellingerDistance.md:1
+msgid "Hellinger distance"
+msgstr ""
+
+#: src/SUMMARY.md:63
+#: src/Distances/DataAnalysis/Relative/LorentzianDistance.md:1
+msgid "Lorentzian distance"
+msgstr ""
+
+#: src/SUMMARY.md:64
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:1
+msgid "Mahalanobis distance"
+msgstr ""
+
+#: src/SUMMARY.md:65
+#: src/Distances/DataAnalysis/Relative/MeanCensoredEuclideanDistance.md:1
+msgid "Mean censored Euclidean distance"
+msgstr ""
+
+#: src/SUMMARY.md:66 src/Distances/DataAnalysis/Relative/MeehlDistance.md:1
+msgid "Meehl distance"
+msgstr ""
+
+#: src/SUMMARY.md:67
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:1
+msgid "Multiplicative distance"
+msgstr ""
+
+#: src/SUMMARY.md:68
+#: src/Distances/DataAnalysis/Relative/NormalizedLpDistance.md:1
+msgid "Normalized lp-distance"
+msgstr ""
+
+#: src/SUMMARY.md:69
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:1
+msgid "Penrose size and shape distances"
+msgstr ""
+
+#: src/SUMMARY.md:70 src/Distances/DataAnalysis/Relative/PowerPRDistance.md:1
+msgid "Power (p, r)-distance"
+msgstr ""
+
+#: src/SUMMARY.md:71
+msgid "Symmetric $chi^2$-distance"
+msgstr ""
+
+#: src/SUMMARY.md:72
+msgid "Symmetric $chi^2$-measure"
+msgstr ""
+
+#: src/SUMMARY.md:73
+#: src/Distances/DataAnalysis/Relative/WeightedEuclideanDistance.md:1
+msgid "Weighted Euclidean distance"
+msgstr ""
+
+#: src/SUMMARY.md:74 src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:1
+msgid "YJHHR metrics"
+msgstr ""
+
+#: src/SUMMARY.md:76 src/Metrics/index.md:1
 msgid "Metrics"
 msgstr ""
 
-#: src/SUMMARY.md:11 src/Moments/index.md:1
+#: src/SUMMARY.md:78 src/Moments/index.md:1
 msgid "Moments"
 msgstr ""
 
-#: src/SUMMARY.md:12 src/Moments/Kurtosis.md:1
+#: src/SUMMARY.md:79 src/Moments/Kurtosis.md:1
 msgid "Kurtosis"
 msgstr ""
 
-#: src/SUMMARY.md:13 src/Moments/Skewness.md:1
+#: src/SUMMARY.md:80 src/Moments/Skewness.md:1
 msgid "Skewness"
 msgstr ""
 
-#: src/Correlations/index.md:1
+#: src/Correlations/index.md:1 src/Distances/DataAnalysis/index.md:25
 msgid "Correlation"
 msgstr ""
 
@@ -69,6 +358,1327 @@ msgstr ""
 
 #: src/Correlations/index.md:11
 msgid "Коэффициент Крамера, который показывает, есть ли связь между двумя категориальными переменными. Категориальные данные — факторы, которые нельзя представить в виде числа: марка телефона, цвет машины, город, страна и т. д."
+msgstr ""
+
+#: src/Correlations/Pearson.md:1
+msgid "Коэффициент корреляции Пирсона"
+msgstr ""
+
+#: src/Correlations/Pearson.md:3
+msgid "$$\\frac{\\mathrm{cov}\\[X, Y\\]}{\\sigma\\_{X} \\sigma\\_{Y}}$$"
+msgstr ""
+
+#: src/Correlations/Pearson.md:5
+msgid "**Описание**: Насколько векторы линейно зависимы."
+msgstr ""
+
+#: src/Correlations/Pearson.md:6
+msgid "**Когда полезно**: Когда важна тенденция (линейная) изменения значений, а не их абсолютные величины или масштаб. Например, для поиска схожих временных рядов по форме."
+msgstr ""
+
+#: src/Correlations/Pearson.md:7 src/Correlations/Spearman.md:9
+msgid "**Диапазон**: От `-1` до `1`. Где `-1` - идеальная отрицательная корреляция; `1` - идеальная положительная корреляция."
+msgstr ""
+
+#: src/Correlations/Pearson.md:9
+msgid "Пирсона"
+msgstr ""
+
+#: src/Correlations/Pearson.md:11
+msgid "[wikipedia.org](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)"
+msgstr ""
+
+#: src/Correlations/Spearman.md:1
+msgid "Spearman's rank correlation coefficient"
+msgstr ""
+
+#: src/Correlations/Spearman.md:3
+msgid "`correlation`"
+msgstr ""
+
+#: src/Correlations/Spearman.md:5
+msgid "$$\\frac{\\mathrm{cov}(R\\[X\\], R\\[Y\\])}{\\sigma\\_{R\\[X\\]} \\sigma\\_{R\\[Y\\]}}$$"
+msgstr ""
+
+#: src/Correlations/Spearman.md:7
+msgid "**Описание**: Насколько векторы монотонно зависимы (основано на рангах значений, а не на самих значениях)."
+msgstr ""
+
+#: src/Correlations/Spearman.md:8
+msgid "**Когда полезно**: Когда важна монотонная связь (не обязательно линейная), и данные могут содержать выбросы или не иметь линейной зависимости. Менее чувствительно к выбросам, чем расстояние Пирсона."
+msgstr ""
+
+#: src/Correlations/Spearman.md:11
+msgid "[wikipedia.org](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)"
+msgstr ""
+
+#: src/Distances/index.md:3
+msgid "[Shared allele distance](SharedAlleleDistance.md)"
+msgstr ""
+
+#: src/Distances/index.md:5
+msgid "Мне нужно сравнить два объекта по триацилглицеридному профилю, там тоже мы имеем процент триацилглицерида - который представляет собой частоту с которой мы его наблюдаем, в сумме дают 1 могу ли я использовать Genetic Distances из Deza (2016) для стравнения двух объектов?"
+msgstr ""
+
+#: src/Distances/index.md:8
+msgid "Общее генетическое расстояние между двумя таксонами представляет собой расстояние между наборами данных, связанных с ДНК, выбранных для их представления. Среди трёх наиболее популярных генетических расстояний, перечисленных ниже, стандартное генетическое расстояние Ней предполагает, что различия возникают в результате мутаций и генетического дрейфа, в то время как хордовое расстояние Кавалли-Сфорца–Эдвардса и расстояние Рейнольдса–Уира–Кокерхэма предполагают только генетический дрейф."
+msgstr ""
+
+#: src/Distances/index.md:14
+msgid "Популяция представлена вектором x D .xij/ с Pn jD1 mj компонентами,"
+msgstr ""
+
+#: src/Distances/index.md:16
+msgid "где"
+msgstr ""
+
+#: src/Distances/index.md:17
+msgid "$n$ — количество рассматриваемых локусов (генов; например: ген цвета глаз)."
+msgstr ""
+
+#: src/Distances/index.md:18
+msgid "$m_j$ — количество аллелей в j-м локусе (варианты этого гена; например: карий, голубой, зеленый)"
+msgstr ""
+
+#: src/Distances/index.md:19
+msgid "$x\\_{ij}$ — частота i-го аллеля (обозначение состояния гена) в j-м локусе гена (положение гена на хромосоме),"
+msgstr ""
+
+#: src/Distances/index.md:21
+msgid "Поскольку $x\\_{ij}$ — это частота, мы имеем $x\\_{ij} ≥ 0$ и Pmj iD1 xij ≤ 1. Пусть P обозначает сумму по всем i и j."
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:3
+msgid "Binary"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:5
+msgid "[Anderberg similarity](Binary/AnderbergSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:6
+msgid "[Braun–Blanquet similarity](Binary/BraunBlanquetSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:7
+msgid "[Dispersion similarity](Binary/DispersionSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:8
+msgid "[Faith similarity](Binary/FaithSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:9
+msgid "[Forbes–Mozley similarity](Binary/ForbesMozleySimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:10
+msgid "[Gower similarity 2](Binary/GowerLegendreSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:11
+msgid "[Gower–Legendre similarity](Binary/GowerSimilarity_2.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:12
+msgid "[Hamann similarity](Binary/HamannSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:13
+msgid "[Model distance](Binary/ModelDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:14
+msgid "[Mountford similarity](Binary/MountfordSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:15
+msgid "[Pattern difference](Binary/PatternDifference.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:16
+msgid "[Pearson correlation similarity](Binary/PearsonPhiSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:17
+msgid "[Q_0-difference](Binary/Q_0Difference.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:18
+msgid "[Rand similarity](Binary/RandSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:19
+msgid "[Roger–Tanimoto similarity](Binary/RogerTanimotoSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:20
+msgid "[Russel–Rao similarity](Binary/RusselRaoSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:21
+msgid "[Sokal–Sneath similarities](Binary/SokalSneathSimilarities.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:22
+msgid "[Tversky similarity](Binary/TverskySimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:23
+msgid "[Yule similarities](Binary/YuleSimilarities.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:27
+msgid "[Cosine similarity](Correlation/CosineSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:28
+msgid "[Covariance similarity](Correlation/CovarianceSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:29
+msgid "[Global correlation distance](Correlation/GlobalCorrelationDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:30
+msgid "[Log-likelihood distance](Correlation/LogLikelihoodDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:31
+msgid "[Morisita–Horn similarity](Correlation/MorisitaHornSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:32
+msgid "[Pearson $phi$ similarity](Correlation/PearsonCorrelationSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:33
+msgid "[Similarity ratio](Correlation/SimilarityRatio.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:34
+msgid "[Spearman rank correlation](Correlation/SpearmanRankCorrelation.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:36
+msgid "Numerical"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:38
+msgid "[Baroni–Urbani–Buser similarity](Numerical/BaroniUrbaniBuserSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:39
+msgid "[Bray–Curtis similarity](Numerical/BrayCurtisSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:40
+msgid "[Canberra distance](Numerical/CanberraDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:41
+msgid "[Czekanowsky similarity](Numerical/CzekanowskyDiceDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:42
+msgid "[Czekanowsky–Dice distance](Numerical/CzekanowskySimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:43
+msgid "[Dice similarity](Numerical/DiceSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:44
+msgid "[Ellenberg similarity](Numerical/EllenbergSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:45
+msgid "[Gleason similarity](Numerical/GleasonSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:46
+msgid "[Intersection distance](Numerical/IntersectionDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:47
+msgid "[Jaccard similarity](Numerical/JaccardSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:48
+msgid "[Kulczynski similarity 1](Numerical/KulczynskiSimilarity_1.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:49
+msgid "[Kulczynski similarity 2](Numerical/KulczynskiSimilarity_2.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:50
+msgid "[Maryland Bridge similarity](Numerical/MarylandBridgeSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:51
+msgid "[Motyka similarity](Numerical/MotykaSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:52
+msgid "[Roberts similarity](Numerical/RobertsSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:53
+msgid "[Ruzicka similarity](Numerical/RuzickaSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:54
+msgid "[Simpson similarity](Numerical/SimpsonSimilarity.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:55
+msgid "[Sørensen distance](Numerical/SørensenDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:57
+msgid "Relative"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:59
+msgid "[Binary Euclidean distance](Relative/BinaryEuclideanDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:60
+msgid "[Clark distance](Relative/ClarkDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:61
+msgid "[Effect size](Relative/EffectSize.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:62
+msgid "[Hellinger distance](Relative/HellingerDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:63
+msgid "[Lorentzian distance](Relative/LorentzianDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:64
+msgid "[Mahalanobis distance](Relative/MahalanobisDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:65
+msgid "[Mean censored Euclidean distance](Relative/MeanCensoredEuclideanDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:66
+msgid "[Meehl distance](Relative/MeehlDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:67
+msgid "[Multiplicative distance](Relative/MultiplicativeDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:68
+msgid "[Normalized lp-distance](Relative/NormalizedLpDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:69
+msgid "[Penrose size and shape distances](Relative/PenroseSizeAndShapeDistances.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:70
+msgid "[Power (p, r)-distance](Relative/PowerPRDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:71
+msgid "[Symmetric $chi^2$-distance](Relative/SymmetricChi_2Distance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:72
+msgid "[Symmetric $chi^2$-measure](Relative/SymmetricChi_2Measure.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:73
+msgid "[Weighted Euclidean distance](Relative/WeightedEuclideanDistance.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/index.md:74
+msgid "[YJHHR metrics](Relative/YjhhrMetrics.md)"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/BraunBlanquetSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/DispersionSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/FaithSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/ForbesMozleySimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/GowerLegendreSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:3
+#: src/Distances/DataAnalysis/Binary/HamannSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:3
+#: src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/PatternDifference.md:3
+#: src/Distances/DataAnalysis/Binary/PearsonPhiSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/Q_0Difference.md:3
+#: src/Distances/DataAnalysis/Binary/RandSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/RusselRaoSimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/SokalSneathSimilarities.md:3
+#: src/Distances/DataAnalysis/Binary/TverskySimilarity.md:3
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:3
+msgid "`Binary`"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y|}{4} \\left( \\frac{1}{|X|} + \\frac{1}{|Y|} \\right) + \\frac{|\\overline{X \\cup Y}|}{4} \\left( \\frac{1}{|\\overline{X}|} + \\frac{1}{|\\overline{Y}|} \\right) $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:7
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:7
+#: src/Distances/DataAnalysis/Binary/RandSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:5
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:7
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:7
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:7
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:7
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:7
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:11
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:7
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:7
+#: src/Distances/DataAnalysis/Relative/HellingerDistance.md:7
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:7
+#: src/Distances/DataAnalysis/Relative/MeehlDistance.md:7
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:7
+#: src/Distances/DataAnalysis/Relative/PowerPRDistance.md:7
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:7
+msgid "Synonyms"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:9
+msgid "Sokal–Sneath 4 similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:11
+#: src/Distances/DataAnalysis/Binary/BraunBlanquetSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/DispersionSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/FaithSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/ForbesMozleySimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/GowerLegendreSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:11
+#: src/Distances/DataAnalysis/Binary/HamannSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:12
+#: src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/PatternDifference.md:7
+#: src/Distances/DataAnalysis/Binary/PearsonPhiSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/Q_0Difference.md:7
+#: src/Distances/DataAnalysis/Binary/RandSimilarity.md:11
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/RusselRaoSimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/SokalSneathSimilarities.md:5
+#: src/Distances/DataAnalysis/Binary/TverskySimilarity.md:7
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:10
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:18
+#: src/Distances/DataAnalysis/Correlation/CovarianceSimilarity.md:7
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:11
+#: src/Distances/DataAnalysis/Correlation/LogLikelihoodDistance.md:7
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:7
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:13
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:13
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:12
+#: src/Distances/DataAnalysis/Numerical/BaroniUrbaniBuserSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:11
+#: src/Distances/DataAnalysis/Numerical/CanberraDistance.md:7
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:15
+#: src/Distances/DataAnalysis/Numerical/CzekanowskySimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/DiceSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/EllenbergSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/GleasonSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/IntersectionDistance.md:7
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:13
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_1.md:7
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_2.md:7
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/MotykaSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/RobertsSimilarity.md:7
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:12
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:11
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:12
+#: src/Distances/DataAnalysis/Relative/BinaryEuclideanDistance.md:7
+#: src/Distances/DataAnalysis/Relative/ClarkDistance.md:7
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:12
+#: src/Distances/DataAnalysis/Relative/HellingerDistance.md:11
+#: src/Distances/DataAnalysis/Relative/LorentzianDistance.md:7
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:15
+#: src/Distances/DataAnalysis/Relative/MeanCensoredEuclideanDistance.md:7
+#: src/Distances/DataAnalysis/Relative/MeehlDistance.md:11
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:7
+#: src/Distances/DataAnalysis/Relative/NormalizedLpDistance.md:7
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:11
+#: src/Distances/DataAnalysis/Relative/PowerPRDistance.md:11
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:11
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Measure.md:7
+#: src/Distances/DataAnalysis/Relative/WeightedEuclideanDistance.md:7
+#: src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:7
+msgid "Description"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/AnderbergSimilarity.md:13
+msgid "The Anderberg similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/BraunBlanquetSimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y|}{\\max{|X|, |Y|}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/BraunBlanquetSimilarity.md:9
+msgid "The Braun–Blanquet similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/DispersionSimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y| \\cdot |\\overline{X \\cup Y}| - |X \\setminus Y| \\cdot |Y \\setminus X|}{n^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/DispersionSimilarity.md:9
+msgid "The dispersion similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/FaithSimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y| + |\\overline{X \\Delta Y}|}{2n} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/FaithSimilarity.md:9
+msgid "The Faith similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ForbesMozleySimilarity.md:5
+msgid "$$ \\frac{n|X \\cap Y|}{|X||Y|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ForbesMozleySimilarity.md:9
+msgid "The Forbes–Mozley similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/GowerLegendreSimilarity.md:5
+msgid "$$ \\frac{|\\overline{X \\Delta Y}|}{a|X \\Delta Y| + |\\overline{X \\Delta Y}|} = \\frac{|\\overline{X \\Delta Y}|}{n + (a - 1)|X \\Delta Y|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/GowerLegendreSimilarity.md:9
+msgid "The Gower–Legendre similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:5
+msgid "$$ \\frac{|X \\cap Y| \\cdot |\\overline{X \\cup Y}|}{\\sqrt{|X| \\cdot |\\overline{X}| \\cdot |Y| \\cdot |\\overline{Y}|}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:9
+msgid "Sokal–Sneath 5 similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/GowerSimilarity_2.md:13
+msgid "The Gower 2 similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/HamannSimilarity.md:5
+msgid "$$ \\frac{2|X \\Delta Y|}{n} - 1 = \\frac{n - 2|X \\Delta Y|}{n} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/HamannSimilarity.md:9
+msgid "The Hamann similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/HamannSimilarity.md:11
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:16
+#: src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:11
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:11
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:14
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:11
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:17
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:15
+#: src/Distances/DataAnalysis/Numerical/CanberraDistance.md:11
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:19
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:17
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:11
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:16
+#: src/Distances/DataAnalysis/Relative/ClarkDistance.md:11
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:16
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:19
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:11
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:15
+#: src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:11
+#: src/Metrics/index.md:3
+msgid "References"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/HamannSimilarity.md:13
+msgid "[Hamann, 1961](https://doi.org/10.1007/BF02047084 \"Merkmalsbestand und Verwandtschaftsbeziehungen der Nematoden\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:5
+msgid "$$ \\sqrt{|X \\setminus Y| + |Y \\setminus X| - 2 \\sum_j \\sqrt{\\lambda_j}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:9
+msgid "CMD-distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:10
+msgid "canonical measure of distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:14
+msgid "Let $X, Y$ be two data sets, and let $\\lambda_j$ be the eigenvalues of the symmetrized cross-correlation matrix $C\\_{X \\setminus Y, Y \\setminus X} \\times C\\_{Y \\setminus X, X \\setminus Y}$. The model distance is a distance on ${0, 1}^n$. The **CMD-distance** is $\\sqrt{|X| + |Y| - 2 \\sum_j \\sqrt{\\lambda_j}}$, where $\\lambda_j$ are the nonzero eigenvalues of the cross-correlation matrix $C\\_{XY} \\times C\\_{YX}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:18
+msgid "[Todeschini, 2004](https://doi.org/10.1002/9783527613106 \"Consensus Models in Chemistry\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/ModelDistance.md:19
+msgid "[Todeschini _et al._, 2009](https://doi.org/10.1002/minf.200900004 \"CMD: A New Canonical Measure of Distance\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:5
+msgid "$$ \\frac{2|X \\cap Y|}{|X||Y \\setminus X| + |Y||X \\setminus Y|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:9
+msgid "The Mountford similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/MountfordSimilarity.md:13
+msgid "[Mountford, 1962](https://doi.org/10.2307/2257441 \"An Index of Similarity and its Application to Classificatory Problems\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/PatternDifference.md:5
+msgid "$$ \\frac{4|X \\setminus Y| \\cdot |Y \\setminus X|}{n^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/PatternDifference.md:9
+msgid "The pattern difference is a distance on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/PearsonPhiSimilarity.md:1
+msgid "Pearson $\\phi$ similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/PearsonPhiSimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y| \\cdot |\\overline{X \\cup Y}| - |X \\setminus Y| \\cdot |Y \\setminus X|}{\\sqrt{|X| \\cdot |\\overline{X}| \\cdot |Y| \\cdot |\\overline{Y}|}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/PearsonPhiSimilarity.md:9
+msgid "The Pearson $\\phi$ similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/Q_0Difference.md:1
+msgid "$Q_0$-difference"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/Q_0Difference.md:5
+msgid "$$ \\frac{|X \\setminus Y| \\cdot |Y \\setminus X|}{|X \\cap Y| \\cdot |\\overline{X \\cup Y}|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/Q_0Difference.md:9
+msgid "The $Q_0$-difference is a distance on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RandSimilarity.md:5
+msgid "$$ 1 - \\frac{|X \\Delta Y|}{n} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RandSimilarity.md:9
+msgid "Sokal–Michener's simple matching"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RandSimilarity.md:13
+msgid "The Rand similarity is a similarity on ${0, 1}^n$. Its square root is called the Euclidean similarity. The corresponding metric $\\frac{|X \\Delta Y|}{n}$ is called the variance or Manhattan similarity."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:5
+msgid "$$ \\frac{|\\overline{X \\Delta Y}|}{n + |X \\Delta Y|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:9
+msgid "The Roger–Tanimoto similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RogerTanimotoSimilarity.md:13
+msgid "[Rogers and Tanimoto, 1960](https://doi.org/10.1126/science.132.3434.1115 \"A Computer Program for Classifying Plants\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RusselRaoSimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y|}{n} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/RusselRaoSimilarity.md:9
+msgid "The Russel–Rao similarity is a similarity on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/SokalSneathSimilarities.md:7
+msgid "The Sokal–Sneath similarities 1, 2, 3 are similarities on ${0, 1}^n$ defined by $\\frac{2|\\overline{X \\Delta Y}|}{n + |\\overline{X \\Delta Y}|}$, $\\frac{|X \\cap Y|}{|X \\cup Y| + |X \\Delta Y|}$, and $\\frac{|\\overline{X \\Delta Y}|}{|X \\Delta Y|}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/TverskySimilarity.md:5
+msgid "$$ \\frac{|X \\cap Y|}{a|X \\Delta Y| + b|X \\cap Y|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/TverskySimilarity.md:9
+msgid "The Tversky similarity is a similarity on ${0, 1}^n$. It becomes the Tanimoto, Sørensen and Kulczynsky 1 similarities for $(a, b) = (1, 1)$, $(\\frac{1}{2}, 1)$ and $(1, 0)$, respectively."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:7
+msgid "Yule Q similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:8
+msgid "Yule Y similarity of colligation"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:12
+msgid "The **Yule Q similarity** is a similarity on ${0, 1}^n$ defined by $\\frac{|X \\cap Y| \\cdot |\\overline{X \\cup Y}| - |X \\setminus Y| \\cdot |Y \\setminus X|}{|X \\cap Y| \\cdot |\\overline{X \\cup Y}| + |X \\setminus Y| \\cdot |Y \\setminus X|}$. The **Yule Y similarity of colligation** is defined by $\\frac{\\sqrt{|X \\cap Y| \\cdot |\\overline{X \\cup Y}|} - \\sqrt{|X \\setminus Y| \\cdot |Y \\setminus X|}}{\\sqrt{|X \\cap Y| \\cdot |\\overline{X \\cup Y}|} + \\sqrt{|X \\setminus Y| \\cdot |Y \\setminus X|}}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:16
+msgid "[Yule, 1900](https://doi.org/10.1098/rsta.1900.0015 \"On the Association of Attributes in Statistics\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Binary/YuleSimilarities.md:17
+msgid "[Yule, 1912](https://doi.org/10.2307/2340126 \"On the Methods of Measuring Association Between Two Attributes\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:3
+#: src/Distances/DataAnalysis/Correlation/CovarianceSimilarity.md:3
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:3
+#: src/Distances/DataAnalysis/Correlation/LogLikelihoodDistance.md:3
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:3
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:3
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:3
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:3
+msgid "`Correlation`"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:5
+msgid "$$ \\frac{\\langle x, y \\rangle}{||x||\\_2 \\cdot ||y||\\_2} = \\cos \\phi $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:9
+msgid "Orchini similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:10
+msgid "angular similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:11
+msgid "normalized dot product"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:12
+msgid "Ochiai–Otsuka similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:13
+msgid "TF-IDF similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:14
+msgid "cosine distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:15
+msgid "Orloci distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:16
+msgid "chord distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CosineSimilarity.md:20
+msgid "The cosine similarity is the case $\\bar{x} = \\bar{y} = 0$ of the Pearson correlation similarity, where $\\phi$ is the angle between vectors $x$ and $y$. In the binary case, it becomes $\\frac{|X \\cap Y|}{\\sqrt{|X| \\cdot |Y|}}$ and is called the **Ochiai–Otsuka similarity**. In Record Linkage, it is called **TF-IDF similarity**. The angular semimetric on $\\mathbb{R}^n$ is defined by $\\arccos \\phi$. The **cosine distance** is $1 - \\cos \\phi$, and the **Orloci distance** is $\\sqrt{2(1 - \\cos \\phi)} = \\sqrt{\\sum (\\frac{x_i}{||x||\\_2} - \\frac{y_i}{||y||\\_2})^2}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CovarianceSimilarity.md:5
+msgid "$$ \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{n} = \\frac{\\sum x_i y_i}{n} - \\bar{x} \\cdot \\bar{y} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/CovarianceSimilarity.md:9
+msgid "The covariance similarity is a similarity on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:5
+msgid "$$ I(d) = \\frac{n \\sum\\_{1 \\le i \\neq j \\le n} w\\_{ij}(d) (x_i - \\bar{x})(x_j - \\bar{x})}{\\sum\\_{1 \\le i \\neq j \\le n} w\\_{ij}(d) \\sum\\_{1 \\le i \\le n} (x_i - \\bar{x})^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:9
+msgid "Moran autocorrelation coefficient"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/GlobalCorrelationDistance.md:13
+msgid "Let $x \\in \\mathbb{R}^n$ and $(A, d)$ be a metric space with $n$ points $a_1, \\dots, a_n$. For any $d > 0$, the Moran autocorrelation coefficient is defined by the formula above, where the weight $w\\_{ij}(d)$ is $1$ if $d(a_i, a_j) = d$ and $0$, otherwise. The global correlation distance is the least value $d'$ for which $I(d) = 0$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/LogLikelihoodDistance.md:5
+msgid "$$ \\sum\\_{x \\in A} x \\log \\frac{x}{|A|} + \\sum\\_{x \\in B} x \\log \\frac{x}{|B|} - \\sum\\_{x \\in A \\cup B} x \\log \\frac{x}{|A \\cup B|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/LogLikelihoodDistance.md:9
+msgid "Given two clusters $A$ and $B$, their log-likelihood distance is the decrease in log-likelihood as they are combined into one cluster."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:5
+msgid "$$ \\frac{2 \\langle x, y \\rangle}{||x||\\_2^2 \\cdot \\frac{\\bar{y}}{\\bar{x}} + ||y||\\_2^2 \\cdot \\frac{\\bar{x}}{\\bar{y}}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:9
+msgid "The Morisita–Horn similarity is a similarity on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/MorisitaHornSimilarity.md:13
+msgid "[Morisita, 1959](https://www.jstage.jst.go.jp/article/memsci1950/3/1/3_1_65/_article \"Measuring of interspecific association and similarity between communities\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:5
+msgid "$$ s = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum (x_j - \\bar{x})^2 \\sum (y_j - \\bar{y})^2}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:9
+msgid "Pearson product-moment correlation coefficient"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:10
+msgid "Pearson distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:11
+msgid "correlation distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:15
+msgid "The Pearson correlation similarity is a similarity on $\\mathbb{R}^n$. The **Pearson distance** (or correlation distance) is defined by $1 - s = \\frac{1}{2} \\sum \\left( \\frac{x_i - \\bar{x}}{\\sqrt{\\sum (x_j - \\bar{x})^2}} - \\frac{y_i - \\bar{y}}{\\sqrt{\\sum (y_j - \\bar{y})^2}} \\right)^2$. A multivariate generalization is the RV coefficient $RV(X, Y) = \\frac{Covv(X, Y)}{\\sqrt{Covv(X, X) Covv(Y, Y)}}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/PearsonCorrelationSimilarity.md:19
+msgid "[Escoufier, 1973](https://doi.org/10.2307/2529068 \"Le Traitement des Variables Vectorielles\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:5
+msgid "$$ \\frac{\\langle x, y \\rangle}{\\langle x, y \\rangle + ||x - y||\\_2^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:9
+msgid "Kohonen similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:10
+msgid "Kumar–Hassebrook similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:11
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:9
+msgid "Tanimoto similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SimilarityRatio.md:15
+msgid "The similarity ratio is a similarity on $\\mathbb{R}^n$. Its binary case is the Tanimoto similarity."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:5
+msgid "$$ \\frac{\\sum (a_i - \\bar{a})(b_i - \\bar{b})}{\\sqrt{\\sum (a_j - \\bar{a})^2 \\sum (b_j - \\bar{b})^2}} = 1 - \\frac{6}{n(n^2 - 1)} \\sum (a_i - b_i)^2 $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:9
+msgid "Spearman footrule"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:10
+msgid "Kendall $\\tau$ rank correlation"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Correlation/SpearmanRankCorrelation.md:14
+msgid "If the sequences $x, y \\in \\mathbb{R}^n$ are ranked separately, then the Pearson correlation similarity is approximated by the Spearman $\\rho$ rank correlation, where $n > 1$ and $a_i = \\text{rank}(x_i)$, $b_i = \\text{rank}(y_i)$. The **Spearman footrule** is defined by $1 - \\frac{3}{n^2 - 1} \\sum |x_i - y_i|$. Another correlation similarity for rankings is the **Kendall $\\tau$ rank correlation**: $\\frac{2 \\sum\\_{1 \\le i \\< j \\le n} \\text{sign}(x_i - x_j) \\text{sign}(y_i - y_j)}{n(n - 1)}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BaroniUrbaniBuserSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/CanberraDistance.md:3
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:3
+#: src/Distances/DataAnalysis/Numerical/CzekanowskySimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/DiceSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/EllenbergSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/GleasonSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/IntersectionDistance.md:3
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_1.md:3
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_2.md:3
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/MotykaSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/RobertsSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:3
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:3
+msgid "`Numerical`"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BaroniUrbaniBuserSimilarity.md:5
+msgid "$$ \\frac{\\sum \\min{x_i, y_i} + \\sqrt{\\sum \\min{x_i, y_i} \\sum (\\max\\_{1 \\le j \\le n} x_j - \\max{x_i, y_i})}}{\\sum \\max{x_i, y_i} + \\sqrt{\\sum \\min{x_i, y_i} \\sum (\\max\\_{1 \\le j \\le n} x_j - \\max{x_i, y_i})}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BaroniUrbaniBuserSimilarity.md:9
+msgid "The Baroni–Urbani–Buser similarity is a similarity on $\\mathbb{R}^n$. In the binary case it takes the form $\\frac{|X \\cap Y| + \\sqrt{|X \\cap Y| \\cdot |\\overline{X \\cup Y}|}}{|X \\cup Y| + \\sqrt{|X \\cap Y| \\cdot |\\overline{X \\cup Y}|}}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:5
+msgid "$$ \\frac{2}{n(\\bar{x} + \\bar{y})} \\sum \\min{x_i, y_i} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:9
+msgid "Renkonen percentage similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:13
+msgid "The Bray–Curtis similarity is a similarity on $\\mathbb{R}^n$. It is called Renkonen percentage similarity if $x, y$ are frequency vectors."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/BrayCurtisSimilarity.md:17
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:21
+msgid "[Bray and Curtis, 1957](https://doi.org/10.2307/1942268 \"An Ordination of the Upland Forest Communities of Southern Wisconsin\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CanberraDistance.md:5
+msgid "$$ \\sum \\frac{|x_i - y_i|}{|x_i| + |y_i|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CanberraDistance.md:9
+msgid "The Canberra distance is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CanberraDistance.md:13
+msgid "[Lance and Williams, 1967](https://doi.org/10.1093/comjnl/9.4.373 \"A General Theory of Classificatory Sorting Strategies\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:5
+msgid "$$ 1 - \\frac{2|X \\cap Y|}{|X| + |Y|} = \\frac{|X \\Delta Y|}{|X| + |Y|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:7
+msgid "Abbreviations"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:9
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:9
+msgid "Bray–Curtis distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:13
+msgid "nonmetric coefficient"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskyDiceDistance.md:17
+msgid "The Czekanowsky–Dice distance is a near-metric on ${0, 1}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskySimilarity.md:5
+msgid "$$ \\frac{\\sum \\min{x_i, y_i}}{\\sum (x_i + y_i)} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/CzekanowskySimilarity.md:9
+msgid "The Czekanowsky similarity is a similarity on $\\mathbb{R}^n$. The corresponding **Czekanowsky distance** is defined by $1 - \\frac{\\sum \\min{x_i, y_i}}{\\sum (x_i + y_i)} = \\frac{\\sum |x_i - y_i|}{\\sum (x_i + y_i)}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/DiceSimilarity.md:5
+msgid "$$ \\frac{\\sum x_i y_i}{\\sum x_i^2 + \\sum y_i^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/DiceSimilarity.md:9
+msgid "The Dice similarity is a similarity on $\\mathbb{R}^n$. The corresponding **Dice distance** is defined by $1 - \\frac{\\sum x_i y_i}{\\sum x_i^2 + \\sum y_i^2} = \\frac{\\sum |x_i - y_i|}{\\sum x_i^2 + \\sum y_i^2}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/EllenbergSimilarity.md:5
+msgid "$$ \\frac{\\sum (x_i + y_i) 1\\_{x_i y_i \\neq 0}}{\\sum (x_i + y_i) (1 + 1\\_{x_i y_i = 0})} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/EllenbergSimilarity.md:9
+msgid "The Ellenberg similarity is a similarity on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/GleasonSimilarity.md:5
+msgid "$$ \\frac{\\sum (x_i + y_i) 1\\_{x_i y_i \\neq 0}}{\\sum (x_i + y_i)} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/GleasonSimilarity.md:9
+msgid "The Gleason similarity is a similarity on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/IntersectionDistance.md:5
+msgid "$$ 1 - \\frac{\\sum \\min{x_i, y_i}}{\\min{\\sum x_i, \\sum y_i}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/IntersectionDistance.md:9
+msgid "The intersection distance is a distance on $\\mathbb{R}^n$. It becomes $\\frac{1}{2} \\sum |x_i - y_i|$ if $x, y$ are frequency vectors."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:5
+msgid "$$ \\frac{\\sum x_i y_i}{\\sum x_i^2 + \\sum y_i^2 - \\sum x_i y_i} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:10
+msgid "Tanimoto distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:11
+msgid "biotope distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:15
+msgid "The Jaccard similarity of community is a similarity on $\\mathbb{R}^n$. The corresponding **Jaccard distance** is defined by $1 - \\frac{\\sum x_i y_i}{\\sum x_i^2 + \\sum y_i^2 - \\sum x_i y_i} = \\frac{\\sum (x_i - y_i)^2}{\\sum x_i^2 + \\sum y_i^2 - \\sum x_i y_i}$. The binary cases of Jaccard, Ellenberg and Ruzicka similarities coincide; it is called **Tanimoto similarity**: $\\frac{|X \\cap Y|}{|X \\cup Y|}$. The **Tanimoto distance** (or biotope distance) is a distance on ${0, 1}^n$ defined by $1 - \\frac{|X \\cap Y|}{|X \\cup Y|} = \\frac{|X \\Delta Y|}{|X \\cup Y|}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/JaccardSimilarity.md:19
+msgid "[Jaccard, 1908](https://doi.org/10.1007/BF01611216 \"Nouvelles recherches sur la distribution florale\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_1.md:5
+msgid "$$ \\frac{\\sum \\min{x_i, y_i}}{\\sum |x_i - y_i|} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_1.md:9
+msgid "The Kulczynski similarity 1 is a similarity on $\\mathbb{R}^n$. The corresponding **Kulczynski distance** is $\\frac{\\sum |x_i - y_i|}{\\sum \\min{x_i, y_i}}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_2.md:5
+msgid "$$ \\frac{n}{2} \\left( \\frac{1}{\\bar{x}} + \\frac{1}{\\bar{y}} \\right) \\sum \\min{x_i, y_i} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/KulczynskiSimilarity_2.md:9
+msgid "The Kulczynski similarity 2 is a similarity on $\\mathbb{R}^n$. In the binary case it coincides with Maryland bridge similarity; its form is $\\frac{|X \\cap Y| \\cdot (|X| + |Y|)}{2|X| \\cdot |Y|} = \\frac{|X \\cap Y|}{2|X|} + \\frac{|X \\cap Y|}{2|Y|}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:5
+msgid "$$ \\frac{1}{2} \\left( \\frac{\\sum x_i y_i}{\\sum x_i^2} + \\frac{\\sum x_i y_i}{\\sum y_i^2} \\right) $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:9
+msgid "The Maryland Bridge similarity is a similarity on $\\mathbb{R}^n$. The corresponding **Maryland Bridge distance** is defined by $1 - \\frac{1}{2} \\left( \\frac{\\sum x_i y_i}{\\sum x_i^2} + \\frac{\\sum x_i y_i}{\\sum y_i^2} \\right)$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/MarylandBridgeSimilarity.md:13
+msgid "[Mirkin and Koonin, 2003](https://doi.org/10.1186/1471-2105-4-2 \"A top-down method for building genome classification trees with linear binary hierarchies\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/MotykaSimilarity.md:5
+msgid "$$ \\frac{\\sum \\min{x_i, y_i}}{\\sum (x_i + y_i)} = n \\frac{\\sum \\min{x_i, y_i}}{\\bar{x} + \\bar{y}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/MotykaSimilarity.md:9
+msgid "The Motyka similarity is a similarity on $\\mathbb{R}^n$. The corresponding **Motyka distance** is $1 - \\frac{\\sum \\min{x_i, y_i}}{\\sum (x_i + y_i)} = \\frac{\\sum \\max{x_i, y_i}}{\\sum (x_i + y_i)}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/RobertsSimilarity.md:5
+msgid "$$ \\frac{\\sum (x_i + y_i) \\frac{\\min{x_i, y_i}}{\\max{x_i, y_i}}}{\\sum (x_i + y_i)} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/RobertsSimilarity.md:9
+msgid "The Roberts similarity is a similarity on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:5
+msgid "$$ \\frac{\\sum \\min{x_i, y_i}}{\\sum \\max{x_i, y_i}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:9
+msgid "Soergel distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:10
+msgid "Wave–Edges distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/RuzickaSimilarity.md:14
+msgid "The Ruzicka similarity is a similarity on $\\mathbb{R}^n$. The corresponding **Soergel distance** is defined as $1 - \\frac{\\sum \\min{x_i, y_i}}{\\sum \\max{x_i, y_i}} = \\frac{\\sum |x_i - y_i|}{\\sum \\max{x_i, y_i}}$. It coincides on $\\mathbb{R}\\_{\\ge 0}^n$ with the fuzzy polynucleotide metric. The **Wave–Edges distance** is defined by $\\sum \\left(1 - \\frac{\\min{x_i, y_i}}{\\max{x_i, y_i}}\\right) = \\sum \\frac{|x_i - y_i|}{\\max{x_i, y_i}}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:5
+msgid "$$ \\frac{\\sum x_i y_i}{\\min{\\sum x_i, \\sum y_i}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:9
+msgid "overlap similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SimpsonSimilarity.md:13
+msgid "The Simpson similarity is a similarity on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:5
+msgid "$$ 1 - \\frac{2}{n(\\bar{x} + \\bar{y})} \\sum \\min{x_i, y_i} = \\frac{\\sum |x_i - y_i|}{\\sum (x_i + y_i)} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:10
+msgid "Sørensen similarity"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:14
+msgid "The Sørensen distance is defined on $\\mathbb{R}^n$. The binary cases of Bray–Curtis, Cleason, Czekanowsky and Dice similarities coincide; it is called **Sørensen similarity**: $\\frac{2|X \\cap Y|}{|X \\cup Y| + |X \\cap Y|} = \\frac{2|X \\cap Y|}{|X| + |Y|}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Numerical/SørensenDistance.md:18
+msgid "[Sørensen, 1948](https://www.semanticscholar.org/paper/A-method-of-establishing-groups-of-equal-amplitude-S%C3%B8rensen/ \"A method of establishing groups of equal amplitude in plant sociology based on similarity of species content\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/BinaryEuclideanDistance.md:3
+#: src/Distances/DataAnalysis/Relative/ClarkDistance.md:3
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:3
+#: src/Distances/DataAnalysis/Relative/HellingerDistance.md:3
+#: src/Distances/DataAnalysis/Relative/LorentzianDistance.md:3
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:3
+#: src/Distances/DataAnalysis/Relative/MeanCensoredEuclideanDistance.md:3
+#: src/Distances/DataAnalysis/Relative/MeehlDistance.md:3
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:3
+#: src/Distances/DataAnalysis/Relative/NormalizedLpDistance.md:3
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:3
+#: src/Distances/DataAnalysis/Relative/PowerPRDistance.md:3
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:3
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Measure.md:3
+#: src/Distances/DataAnalysis/Relative/WeightedEuclideanDistance.md:3
+#: src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:3
+msgid "`Relatives`"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/BinaryEuclideanDistance.md:5
+msgid "$$ \\sqrt{\\sum (1\\_{x_i > 0} - 1\\_{y_i > 0})^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/BinaryEuclideanDistance.md:9
+msgid "The binary Euclidean distance is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/ClarkDistance.md:5
+msgid "$$ \\left( \\frac{1}{n} \\sum \\left( \\frac{x_i - y_i}{|x_i| + |y_i|} \\right)^2 \\right)^{\\frac{1}{2}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/ClarkDistance.md:9
+msgid "The Clark distance is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/ClarkDistance.md:13
+msgid "[Clark, 1952](https://doi.org/10.2307/1931022 \"An extension of the coefficient of divergence for use with multiple characters\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:5
+msgid "$$ \\frac{\\bar{x} - \\bar{y}}{s} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:9
+msgid "statistical distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:10
+msgid "standard distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:14
+msgid "Let $\\bar{x}, \\bar{y}$ be the means of samples $x, y$ and let $s^2$ be the pooled variance of both samples. The effect size is defined by the formula above. Its symmetric version $\\frac{|\\bar{x} - \\bar{y}|}{s}$ is called statistical distance or standard distance."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:18
+msgid "[Johnson and Wichern, 1982](https://www.pearson.com/us/higher-education/program/Johnson-Applied-Multivariate-Statistical-Analysis-6th-Edition/PGM249031.html \"Applied Multivariate Statistical Analysis\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/EffectSize.md:19
+msgid "[Flury and Riedwyl, 1986](https://doi.org/10.1080/01621459.1986.10478263 \"Standard Distance in Statistics\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/HellingerDistance.md:5
+msgid "$$ \\sqrt{2 \\sum \\left( \\sqrt{\\frac{x_i}{\\bar{x}}} - \\sqrt{\\frac{y_i}{\\bar{y}}} \\right)^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/HellingerDistance.md:9
+msgid "Whittaker index of association"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/HellingerDistance.md:13
+msgid "The Hellinger distance is a distance on $\\mathbb{R}\\_+^n$. The **Whittaker index of association** is defined by $\\frac{1}{2} \\sum |\\frac{x_i}{\\bar{x}} - \\frac{y_i}{\\bar{y}}|$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/LorentzianDistance.md:5
+msgid "$$ \\sum \\ln(1 + |x_i - y_i|) $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/LorentzianDistance.md:9
+msgid "The Lorentzian distance is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:5
+msgid "$$ ||x - y||\\_A = \\sqrt{(x - y) A (x - y)^T} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:9
+msgid "quadratic distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:10
+msgid "directionally weighted distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:11
+msgid "standardized Euclidean distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:12
+msgid "normalized Euclidean distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:13
+msgid "scaled Euclidean distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:17
+msgid "The Mahalanobis distance is a semimetric on $\\mathbb{R}^n$, where $A$ is a positive-semidefinite matrix. It is a metric if $A$ is positive-definite. Usually, $A = C^{-1}$, where $C$ is a covariance matrix. If $C$ is a diagonal matrix, then $c\\_{ii} = Var(x_i) = Var(y_i) = \\sigma_i^2$ and it holds $||x - y||\\_{C^{-1}} = \\sqrt{\\sum_i \\frac{(x_i - y_i)^2}{\\sigma_i^2}}$, which is called the **standardized Euclidean distance**. The **maximum scaled difference** is defined by $\\max_i \\frac{(x_i - y_i)^2}{\\sigma_i^2}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:21
+msgid "[Mahalanobis, 1936](https://www.semanticscholar.org/paper/On-the-generalised-distance-in-statistics-Mahalanobis/ \"On the generalised distance in statistics\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MahalanobisDistance.md:22
+msgid "[Maxwell and Buddemeier, 2002](https://doi.org/10.1007/s00442-002-0917-4 \"Maximum scaled difference\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MeanCensoredEuclideanDistance.md:5
+msgid "$$ \\sqrt{\\frac{\\sum (x_i - y_i)^2}{\\sum 1\\_{x_i^2 + y_i^2 \\neq 0}}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MeanCensoredEuclideanDistance.md:9
+msgid "The mean censored Euclidean distance is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MeehlDistance.md:5
+msgid "$$ \\sum\\_{1 \\le i \\le n-1} (x_i - y_i - x\\_{i+1} + y\\_{i+1})^2 $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MeehlDistance.md:9
+msgid "Meehl index"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MeehlDistance.md:13
+msgid "The Meehl distance is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:5
+msgid "$$ d\\_{MK}(x, y) = -1 + \\prod\\_{i=1}^n (1 + |x_i - y_i|)^{c_i} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:9
+msgid "The multiplicative distance is defined for any $x, y \\in \\mathbb{R}^n$, where $c_1, \\dots, c_n$ are given positive numbers. Another multiplicative distance for $x, y \\in \\mathbb{N}^n$ is $d_Q(x, y) = \\sum\\_{i=1}^n ||l(x_i) - l(y_i)||\\_1$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:13
+msgid "[Mansouri and Khademi, 2014](https://doi.org/10.1016/j.patrec.2014.04.016 \"A new multiplicative distance metric for high-dimensional data\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/MultiplicativeDistance.md:14
+msgid "[Qureshi, 2015](https://doi.org/10.1016/j.patrec.2015.03.011 \"A novel multiplicative distance metric for numerical data\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/NormalizedLpDistance.md:5
+msgid "$$ \\frac{||x - y||\\_p}{||x||\\_p + ||y||\\_p} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/NormalizedLpDistance.md:9
+msgid "The normalized $l_p$-distance, $1 \\le p \\le \\infty$, is a distance on $\\mathbb{R}^n$. The only integer value $p$ for which it is a metric is $p=2$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:5
+msgid "$$ \\sqrt{n} \\sum |x_i - y_i| \\quad \\text{and} \\quad \\sqrt{\\sum ((x_i - \\bar{x}) - (y_i - \\bar{y}))^2} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:9
+msgid "mean character distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:13
+msgid "The Penrose size distance and Penrose shape distance are distances on $\\mathbb{R}^n$. The sum of their squares is the squared Euclidean distance. The **mean character distance** is defined by $\\frac{\\sum |x_i - y_i|}{n}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PenroseSizeAndShapeDistances.md:17
+msgid "[Czekanowsky, 1909](https://www.semanticscholar.org/paper/Zur-Differentialdiagnose-der-Neandertalgruppe-Czekanowski/ \"Zur Differentialdiagnose der Neandertalgruppe\")"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PowerPRDistance.md:5
+msgid "$$ \\left( \\sum\\_{i=1}^n |x_i - y_i|^p \\right)^{\\frac{1}{r}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PowerPRDistance.md:9
+msgid "fractional $l_p$-distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/PowerPRDistance.md:13
+msgid "The power $(p, r)$-distance is a distance on $\\mathbb{R}^n$. For $p = r \\ge 1$, it is the $l_p$-metric, including the Euclidean, Manhattan and Chebyshev metrics. The case $(p, r) = (2, 1)$ corresponds to the squared Euclidean distance. The power $(p, r)$-distance with $0 \\< p = r \\< 1$ is called the **fractional $l_p$-distance**. The **ordinal distance** on $\\mathbb{R}^n$ is defined by $\\left( \\sum\\_{i=1}^n |\\sum\\_{1 \\le j \\le i} (x_j - y_j)|^p \\right)^{\\frac{1}{p}}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:1
+msgid "Symmetric $\\chi^2$-distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:5
+msgid "$$ \\sqrt{\\sum \\frac{\\bar{x} + \\bar{y}}{n(x_i + y_i)} \\left( \\frac{x_i}{\\bar{x}} - \\frac{y_i}{\\bar{y}} \\right)^2} = \\sqrt{\\sum \\frac{\\bar{x} + \\bar{y}}{n(\\bar{x} \\cdot \\bar{y})^2} \\frac{(x_i \\bar{y} - y_i \\bar{x})^2}{x_i + y_i}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:9
+msgid "chi-distance"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Distance.md:13
+msgid "The symmetric $\\chi^2$-distance is a distance on $\\mathbb{R}^n$. It is a weighted Euclidean distance."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Measure.md:1
+msgid "Symmetric $\\chi^2$-measure"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Measure.md:5
+msgid "$$ \\sum \\frac{2}{\\bar{x} \\cdot \\bar{y}} \\frac{(x_i \\bar{y} - y_i \\bar{x})^2}{x_i + y_i} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/SymmetricChi_2Measure.md:9
+msgid "The symmetric $\\chi^2$-measure is a distance on $\\mathbb{R}^n$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/WeightedEuclideanDistance.md:5
+msgid "$$ \\sqrt{(x - y)^T A (x - y)} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/WeightedEuclideanDistance.md:9
+msgid "The general quadratic-form distance on $\\mathbb{R}^n$ is defined by the formula above, where $A$ is a real nonsingular symmetric $n \\times n$ matrix. The weighted Euclidean distance is the case $A = \\text{diag}(a_i)$, $a_i \\neq 0$, i.e., it is $\\sqrt{\\sum a_i(x_i - y_i)^2}$."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:5
+msgid "$$ d(X, Y) = (|X \\setminus Y|^p + |Y \\setminus X|^p)^{\\frac{1}{p}} $$"
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:9
+msgid "The YJHHR metrics are defined for any $p \\ge 1$ and two finite sets $X, Y$. Another variant is $d'(X, Y) = \\frac{d(X, Y)}{|X \\cup Y|}$ if $|X \\cup Y| > 0$, and $0$ otherwise."
+msgstr ""
+
+#: src/Distances/DataAnalysis/Relative/YjhhrMetrics.md:13
+msgid "[Yang _et al._, 2016](https://doi.org/10.1093/bioinformatics/btw318 \"A distance metric for sets of biological sequences\")"
+msgstr ""
+
+#: src/Metrics/index.md:5
+msgid "[gitlab.com/iagogv/clusterCrit](https://gitlab.com/iagogv/clusterCrit)"
+msgstr ""
+
+#: src/Metrics/index.md:6
+msgid "[doc](https://cran.r-project.org/web/packages/clusterCrit/vignettes/clusterCrit.pdf)"
+msgstr ""
+
+#: src/Metrics/index.md:7
+msgid "[github.com/thieu1995/permetrics](https://github.com/thieu1995/permetrics)"
+msgstr ""
+
+#: src/Metrics/index.md:8
+msgid "[doc](https://permetrics.readthedocs.io/en/latest/pages/clustering.html)"
 msgstr ""
 
 #: src/Moments/Kurtosis.md:3
