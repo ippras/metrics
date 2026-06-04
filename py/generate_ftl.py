@@ -4,9 +4,15 @@ from pathlib import Path
 
 # === НАСТРОЙКИ ===
 LANGUAGES = ['en', 'ru']
+PREFIX = 'Metrics'
 # Список папок, которые нужно оставлять в ИД. 
 # Папки, которых здесь нет, будут проигнорированы при формировании ИД.
-ALLOWED_DIRS = {'Correlations', 'Metrics', 'Moments'}
+ALLOWED_DIRS = {
+    'Correlations',
+    'Distances',
+        'DataAnalysis', 'Genetic',
+    'Metrics', 'Moments',
+}
 
 def sanitize_id(name):
     """
@@ -105,7 +111,7 @@ def create_ftl_from_dir(directory_path, output_file, allowed_dirs):
             markdown_attr = "\n".join(markdown_attr_lines)
 
             # Записываем в FTL
-            out_ftl.write(f"Math_{msg_id} = {first_line}\n")
+            out_ftl.write(f"{PREFIX}_{msg_id} = {first_line}\n")
             out_ftl.write(f"    .markdown =\n{markdown_attr}\n\n")
             
     print(f"Готово! Файл сохранен как {output_file}")
@@ -113,7 +119,7 @@ def create_ftl_from_dir(directory_path, output_file, allowed_dirs):
 # === ЗАПУСК ===
 for lang in LANGUAGES:
     input = f'./book/{lang}/markdown'
-    output = f'./ftl/{lang}.ftl'
+    output = f'./ftl/{lang}/generated.ftl'
     
     print(f"Обработка языка: {lang.upper()}...")
     create_ftl_from_dir(input, output, ALLOWED_DIRS)
