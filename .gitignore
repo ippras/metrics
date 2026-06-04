@@ -1,4 +1,4 @@
-/.vscode
 /book
-/dist
+/messages.mo
+/po/messages.pot
 /target
